@@ -2,6 +2,9 @@
     padding:0px;
     margin: 0px;
 }
+
+/* header section */
+
 .header-section{
     background-image: url(/new-year-new-me/images/banner/banner1.png);
     background-size: cover;
@@ -13,7 +16,7 @@
 .header-div{
     padding-top: 250px;
     width: 400px;
-    padding-left: 780px;
+    padding-left: 845px;
 }
 .first-p{
     font-size: 45px;
@@ -32,3 +35,37 @@
     width: 80px;
 }
 
+/* second section */
+
+.second-section{
+    display: flex;
+}
+.persion-image{
+    position: absolute;
+    padding-left: 280px;
+}
+.person-details{
+    position: absolute;
+    padding-left: 750px;
+    padding-top: 150px;
+}
+.persion-heading{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.persion-p{
+    padding-top: 15px;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.list{
+    position: absolute;
+    width: 500px;
+}
+ul {
+    list-style: none;
+  }
+  
+  ul li::marker {
+    content: '✓';
+    color: green;
+  }
