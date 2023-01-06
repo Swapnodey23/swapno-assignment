@@ -40,7 +40,7 @@
 .second-section{
     display: flex;
 }
-.persion-image{
+.person-image{
     position: absolute;
     padding-left: 280px;
 }
@@ -49,10 +49,10 @@
     padding-left: 750px;
     padding-top: 150px;
 }
-.persion-heading{
+.person-heading{
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-.persion-p{
+.person-p{
     padding-top: 15px;
     font-size: 13px;
     padding-bottom: 15px;
@@ -69,3 +69,6 @@ ul {
     content: '✓';
     color: green;
   }
+
+  /* plans section */
+
