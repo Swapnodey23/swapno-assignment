@@ -16,7 +16,7 @@
 .header-div{
     padding-top: 250px;
     width: 400px;
-    padding-left: 845px;
+    padding-left: 780px;
 }
 .first-p{
     font-size: 45px;
@@ -48,9 +48,13 @@
     position: absolute;
     padding-left: 750px;
     padding-top: 150px;
+    text-align: left;
 }
-.person-heading{
+.persoon-heading{
     font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    padding-right: 50px;
 }
 .person-p{
     padding-top: 15px;
@@ -72,18 +76,22 @@ ul {
 
   /* plans section */
 
-  .plan-section{
+.plan-section{
     text-align: center;
     padding-top: 520px ;
 }
-.person-heading{
+.plan-heading{
     position: absolute;
+    font-size: 36px;
+    text-align: center;
+    padding-left: 634px;
+
 }
 .individual-skills{
     display: flex;
     gap: 80px;
-    padding-left: 300px;
-    padding-top: 35px;
+    padding-left: 270px;
+    padding-top: 110px;
 }
 .skill-name{
     font-size: 20px
@@ -94,6 +102,35 @@ ul {
 .skill-name{
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
+/* time/middle image section */
+
+.time-section{
+    padding-top: 110px;
+    padding-left: 180px;
+    color: white;
+}
+.middle-div{
+    background-image:url(/new-year-new-me/images/watch.png);
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 250px;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 70px;
+    padding-top: 85px;
+}
+
+.p-time-section{ 
+    font-size: 40px;
+}
+
+.visit-button{
+    border: none;
+    color: rgb(240, 82, 20);    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+}
