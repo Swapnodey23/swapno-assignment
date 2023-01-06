@@ -72,3 +72,28 @@ ul {
 
   /* plans section */
 
+  .plan-section{
+    text-align: center;
+    padding-top: 520px ;
+}
+.person-heading{
+    position: absolute;
+}
+.individual-skills{
+    display: flex;
+    gap: 80px;
+    padding-left: 300px;
+    padding-top: 35px;
+}
+.skill-name{
+    font-size: 20px
+}
+.image-web{
+
+}
+.skill-name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
